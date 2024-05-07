@@ -35,6 +35,13 @@ body{
     color: #ffffff;
     text-decoration: none ;
    }
+   .logosFooter{
+    width: 130px;
+    margin-top: 150px;
+   }
+   .marginNav{
+    margin-left: 90px;
+   }
    .card-img-overlay {
     /* Asegúrate de que el overlay tenga un padding adecuado si es necesario */
     padding: 20px;
@@ -51,6 +58,13 @@ body{
   .icono{
     font-size: 100px;
     color: black;
+  }
+  .info{
+    text-shadow: 
+        -0.5px -0.5px 0 black,  
+         0.5px -0.5px 0 black,
+        -0.5px  0.5px 0 black,
+         1px  1px 0 rgb(116, 116, 116); /* Sombra para simular el borde */
   }
   .carousel-indicators .circular-button {
     border-radius: 50%; /* Hace el botón circular */
