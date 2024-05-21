@@ -73,9 +73,7 @@ body{
   }
   .info{
     text-shadow: 
-        -0.5px -0.5px 0 black,  
-         0.5px -0.5px 0 black,
-        -0.5px  0.5px 0 black,
+        
          1px  1px 0 rgb(116, 116, 116); /* Sombra para simular el borde */
          
   }
