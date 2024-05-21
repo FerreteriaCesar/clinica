@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contacto</title>
+    <title>Index</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=EB+Garamond:ital,wght@0,500;1,500&display=swap" rel="stylesheet">   
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="estiloFooter.css">
+    <link rel="stylesheet" href="estilo.css">
+    
 </head>
 <body>
     <nav class="navbar navbar-expand-lg fixed-top " style="background-color: #e3f2fd">
@@ -19,19 +20,19 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav  mb-2 mb-lg-0  marginNav">
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle "  aria-current="page" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Proyectos
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Todos</a></li>
+                     <!-- <li><a class="dropdown-item" href="#">Todos</a></li>-->
                       <li><a class="dropdown-item" href="#">Sanitarios</a></li>
                       <li><a class="dropdown-item" href="#">Viviendas</a></li>
-                      <li><hr class="dropdown-divider"></li>
+                     <!-- <li><hr class="dropdown-divider"></li>
                       <li><a class="dropdown-item" href="#">Interiorismo</a></li>
-                      <li><a class="dropdown-item" href="#">Corporativo</a></li>
+                      <li><a class="dropdown-item" href="#">Corporativo</a></li>-->
 
                     </ul>
 
@@ -46,20 +47,18 @@
                     <a class="nav-link"  href="#">Productos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link"  href="#">Tecsanit</a>
+                  <a class="nav-link"  href="tecsanit.html">Tecsanit</a>
               </li>
+               
                 <li class="nav-item">
-                    <a class="nav-link"  href="#">Noticias</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active"  href="#">Contactos</a>
+                    <a class="nav-link active"  href="contacto.html">Contactos</a>
                 </li>
              
             </ul>
-            <form class="d-flex" role="search">
+           <!-- <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
               <button class="btn btn-outline-info" type="submit">Buscar</button>
-            </form>
+            </form> -->
           </div>
         </div>
       </nav>
@@ -93,81 +92,116 @@
 
             </div>
         </div>
-    </section>   
+    </section> 
+
+
+
+    <a href="https://api.whatsapp.com/send?phone=34650861056&text=Hola, me gustaría obtener más información." class="btn-wsp" target="_blank">
+      <i class="bi bi-whatsapp"></i>
+    </a>
+
+
 
     <footer class="new_footer_area bg_color">
-        <div class="new_footer_top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
-                            <h3 class="f-title f_600 t_color f_size_18">Recive noticias</h3>
-                            <p>¡No te pierdas ninguna novedad y suscribete a nuestra newsletter!</p>
-                            <form action="#" class="f_subscribe_two mailchimp" method="post" novalidate="true" _lpchecked="1">
-                                <input type="text" name="EMAIL" class="form-control memail" placeholder="Email">
-                                <button class="btn btn_get btn_get_two" type="submit">Suscribete</button>
-                                <p class="mchimp-errmessage" style="display: none;"></p>
-                                <p class="mchimp-sucmessage" style="display: none;"></p>
-                            </form>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
-                            <h3 class="f-title f_600 t_color f_size_18">Download</h3>
-                            <ul class="list-unstyled f_list">
-                                <li><a href="#">Company</a></li>
-                                <li><a href="#">Android App</a></li>
-                                <li><a href="#">ios App</a></li>
-                                <li><a href="#">Desktop</a></li>
-                                <li><a href="#">Projects</a></li>
-                                <li><a href="#">My tasks</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
-                            <h3 class="f-title f_600 t_color f_size_18">Ayuda</h3>
-                            <ul class="list-unstyled f_list">
-                                <li><a href="#">FAQ</a></li>
-                                <li><a href="#">Terminos &amp; condiciones</a></li>
-                                <li><a href="#">Informes</a></li>
-                                <li><a href="#">Documentacion</a></li>
-                                <li><a href="#">Politica</a></li>
-                                <li><a href="#">Privacidad</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
-                            <h3 class="f-title f_600 t_color f_size_18">Team Solutions</h3>
-                            <div class="f_social_icon">
-                                <a href="#" class="fab fa-facebook"><i class="bi bi-facebook"></i></a>
-                                <a href="#" class="fab fa-twitter"><i class="bi bi-twitter-x"></i></a>
-                                <a href="#" class="fab fa-linkedin"><i class="bi bi-linkedin"></i></a>
-                                <a href="#" class="fab fa-pinterest"><i class="bi bi-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer_bg">
-                <div class="footer_bg_one"></div>
-                <div class="footer_bg_two"></div>
-            </div>
-        </div>
-        <div class="footer_bottom">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 col-sm-7">
-                        <p class="mb-0 f_400">© cakecounter Inc.. 2019 All rights reserved.</p>
-                    </div>
-                   <!-- <div class="col-lg-6 col-sm-5 text-right">
-                        <p>Made with <i class="icon_heart"></i> in <a href="http://cakecounter.com" target="_blank">CakeCounter</a></p>
-                    </div>-->
-                </div>
-            </div>
-        </div>
-    </footer>
-    
+      <div class="new_footer_top">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-3 col-md-6">
+                      <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+                          <h3 class="f-title f_600 t_color f_size_18">Recive noticias</h3>
+                          <p>¡No te pierdas ninguna novedad y suscribete a nuestra newsletter!</p>
+                          <form action="#" class="f_subscribe_two mailchimp" method="post" novalidate="true" _lpchecked="1">
+                              <input type="text" name="EMAIL" class="form-control memail" placeholder="Email">
+                              <button class="btn btn_get btn_get_two" type="submit">Suscribete</button>
+                              <p class="mchimp-errmessage" style="display: none;"></p>
+                              <p class="mchimp-sucmessage" style="display: none;"></p>
+                          </form>
+                      </div>
+                     
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                      <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+                          <h3 class="f-title f_600 t_color f_size_18">Download</h3>
+                          <ul class="list-unstyled f_list">
+                              <li><a href="#">Company</a></li>
+                              <li><a href="#">Android App</a></li>
+                              <li><a href="#">ios App</a></li>
+                              <li><a href="#">Desktop</a></li>
+                              <li><a href="#">Projects</a></li>
+                              <li><a href="#">My tasks</a></li>
+                          </ul>
+                      </div>
+                      
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                      <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
+                          <h3 class="f-title f_600 t_color f_size_18">Ayuda</h3>
+                          <ul class="list-unstyled f_list">
+                              <li><a href="#">FAQ</a></li>
+                              <li><a href="#">Terminos &amp; condiciones</a></li>
+                              <li><a href="#">Informes</a></li>
+                              <li><a href="#">Documentacion</a></li>
+                              <li><a href="#">Politica</a></li>
+                              <li><a href="#">Privacidad</a></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                      <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
+                          <h3 class="f-title f_600 t_color f_size_18">Team Solutions</h3>
+                          <div class="f_social_icon">
+                              <a href="#" class="fab fa-facebook"><i class="bi bi-facebook"></i></a>
+                              <a href="#" class="fab fa-twitter"><i class="bi bi-twitter-x"></i></a>
+                              <a href="#" class="fab fa-linkedin"><i class="bi bi-linkedin"></i></a>
+                              <a href="#" class="fab fa-pinterest"><i class="bi bi-instagram"></i></a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+           <!--LOGOS EMPRESAS-->
+    <!--LOGOS EMPRESAS-->
+    <div class="row align-items-center mx-5">  
+      <div class="col-lg-2 col-md-2 d-flex justify-content-center">
+          <img src="footer/gobiernoFooter.png" class="logosFooter img-fluid" style="width: 200px;">
+      </div>
+      <div class="col-lg-2 col-md-2 d-flex justify-content-center">
+          <img src="footer/financiadoFooter.png" class="logosFooter img-fluid">
+      </div>
+      <div class="col-lg-2 col-md-2 d-flex justify-content-center">
+          <img src="footer/KDigital-Footer.png" class="logosFooter img-fluid">
+      </div>
+      <div class="col-lg-2 col-md-2 d-flex justify-content-center">
+          <img src="footer/redFooter.png" class="logosFooter img-fluid" style="width: 100px;">
+      </div>
+      <div class="col-lg-2 col-md-2 d-flex justify-content-center">
+          <img src="footer/espanaDigital-Footer.png" class="logosFooter img-fluid">
+      </div>
+      <div class="col-lg-2 col-md-2 d-flex justify-content-center">
+          <img src="footer/PRTR-Footer.png" class="logosFooter img-fluid">
+      </div>
+  </div>
+  
+
+          <!--<div class="footer_bg">
+              <div class="footer_bg_one"></div>
+              <div class="footer_bg_two"></div>
+          </div>-->
+ </div>
+     
+     
+  </footer>
+      
+
+     
+      
+      
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+
+
 </body>
 </html>

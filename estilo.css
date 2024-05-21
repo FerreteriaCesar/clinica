@@ -23,10 +23,17 @@ body{
     
    }
    .container {
-    border-radius: 7px;
+    border-radius: 7px 7px 0px 0px;
    }
+   
+   
    .containerHeader{
     margin: 100px 0px;
+    display: flex;
+   justify-content: center;
+   }
+   .containerHeaderTecsanit{
+    margin: 100px 0px 10px 0px;
     display: flex;
    justify-content: center;
    }
@@ -34,6 +41,14 @@ body{
     font-size: 24px;
     color: #ffffff;
     text-decoration: none ;
+   }
+   .logosFooter{
+    width: 130px;
+    margin-top: 130px;
+    margin-bottom: -150px;
+   }
+   .marginNav{
+    margin-left: 140px;
    }
    .card-img-overlay {
     /* Asegúrate de que el overlay tenga un padding adecuado si es necesario */
@@ -51,6 +66,18 @@ body{
   .icono{
     font-size: 100px;
     color: black;
+  }
+  .icono2{
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+  }
+  .info{
+    text-shadow: 
+        -0.5px -0.5px 0 black,  
+         0.5px -0.5px 0 black,
+        -0.5px  0.5px 0 black,
+         1px  1px 0 rgb(116, 116, 116); /* Sombra para simular el borde */
+         
   }
   .carousel-indicators .circular-button {
     border-radius: 50%; /* Hace el botón circular */
